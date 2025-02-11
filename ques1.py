@@ -1,3 +1,11 @@
+'''
+Validate a given public IP address to check if it follows the correct format (IPv4).
+Validate a given email address to check if it’s a valid Gmail address, considering:
+It should contain "@gmail.com".
+The username before "@gmail.com" should contain only lowercase letters , numbers and permitted symbols.
+Provide informative error messages for invalid IP or email.
+'''
+
 import re
 import ipaddress
 
