@@ -1,0 +1,14 @@
+2025-02-12 09:45:21,852 - WARNING - http://www.example.com/nonexistentpage - 404 Client Error - ALERT : 4xx error encountered.
+2025-02-12 09:45:21,852 - INFO - Exponential backoff for http://www.example.com/nonexistentpage: 2 seconds
+2025-02-12 09:45:24,614 - WARNING - http://httpstat.us/404 - 404 Client Error - ALERT : 4xx error encountered.
+2025-02-12 09:45:24,615 - INFO - Exponential backoff for http://httpstat.us/404: 2 seconds
+2025-02-12 09:45:27,380 - ERROR -  http://httpstat.us/500 - 500 Server Error - ALERT : 5xx error encountered.
+2025-02-12 09:45:27,380 - INFO - Exponential backoff for http://httpstat.us/500: 2 seconds
+2025-02-12 09:45:30,146 - INFO - https://www.google.com/ - 200 OK: The website is UP and running.
+2025-02-12 09:45:42,402 - WARNING - http://www.example.com/nonexistentpage - 404 Client Error - ALERT : 4xx error encountered.
+2025-02-12 09:45:42,402 - INFO - Exponential backoff for http://www.example.com/nonexistentpage: 4 seconds
+2025-02-12 09:45:47,145 - WARNING - http://httpstat.us/404 - 404 Client Error - ALERT : 4xx error encountered.
+2025-02-12 09:45:47,145 - INFO - Exponential backoff for http://httpstat.us/404: 4 seconds
+2025-02-12 09:45:52,058 - ERROR -  http://httpstat.us/500 - 500 Server Error - ALERT : 5xx error encountered.
+2025-02-12 09:45:52,059 - INFO - Exponential backoff for http://httpstat.us/500: 4 seconds
+2025-02-12 09:45:56,780 - INFO - https://www.google.com/ - 200 OK: The website is UP and running.
